@@ -3,17 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
+    <title>New Year Countdown</title>
 
-    <!-- Old Favicon - Grab Icon From Google (Might be unsupported in the future) -->
-    <link rel="icon" type="image/png" href="https://www.google.com/s2/u/0/favicons?domain=vuejs.org/">
+    
+    <link rel="icon" type="image/png" href="favicon.png">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>VaVe says hello⚡</h1>
+    <div id="year" class="year"></div>
+        <h1>New Year Countdown</h1>
+        
+        <div class="countdown" id="countdown">
+            <div class="time">
+                <h2 id="days">00</h2>
+                <small>days</small>
+            </div>
+            
+            <div class="time">
+                <h2 id="hours">00</h2>
+                <small>hours</small>
+            </div>
+            
+            <div class="time">
+                <h2 id="minutes">00</h2>
+                <small>minutes</small>
+            </div>
+            
+            <div class="time">
+                <h2 id="seconds">00</h2>
+                <small>seconds</small>
+            </div>
+
+        </div>
+            <footer class="animate__animated animate__bounceIn">
+         <p>Made with ❤️ by VaVe</p>
+     </footer>
+   
+ 
+    <img src="./img/spinner.gif" alt="Loading..." class="loading" id="loading">
     <!-- Script -->
     <script src="script.js"></script>
 </body>
