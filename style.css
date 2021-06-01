@@ -75,7 +75,7 @@ font-size: 1rem;
 /* Media Query */
 @media (max-width: 500px) {
   h1 {
-    font-size: 45px;
+    font-size: 33px;
   }
   .time {
     margin: 5px;
@@ -89,5 +89,8 @@ font-size: 1rem;
   }
   .year{
     font-size: 150px;
+  }
+  footer{
+    bottom: 0.5px;
   }
 }
